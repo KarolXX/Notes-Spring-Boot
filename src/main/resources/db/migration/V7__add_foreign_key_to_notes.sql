@@ -1,0 +1,1 @@
+alter table notes add foreign key (group_id) references note_groups(id);
